@@ -1,0 +1,26 @@
+<resources>
+    <string name="app_name">PredAR</string>
+    <string name="teacher_login_button">Sunt profesor!</string>
+    <string name="teacher_login_hint">Cod de acces...</string>
+    <string name="student_login_button">Sunt elev!</string>
+    <string name="science_lesson_title">Sistemul solar</string>
+    <string name="math_lesson_title">Corpuri geometrice</string>
+    <string name="lesson_index">Lecția 1</string>
+    <string name="plane_finding">Căutare plan...</string>
+    <string name="mercury_label">Mercur</string>
+    <string name="venus_label">Venus</string>
+    <string name="earth_label">Pământ</string>
+    <string name="moon_label">Luna</string>
+    <string name="mars_label">Marte</string>
+    <string name="jupiter_label">Jupiter</string>
+    <string name="saturn_label">Saturn</string>
+    <string name="uranus_label">Uranus</string>
+    <string name="neptune_label">Neptun</string>
+    <string name="orbit_speed">Viteză pe orbită:</string>
+    <string name="rotation_speed">Viteză de rotație:</string>
+    <string name="camera_denied">Camera inaccesibilă</string>
+    <string name="unavailable_renderable">Modelul nu poate fi încărcat</string>
+    <string name="unavailable_planet_card">Nu pot fi încărcate informații despre planete</string>
+    <string name="error_hosting_anchor">Eroare la găzduirea ancorei</string>
+    <string name="error_resolving_anchor">Eroare la rezolvarea ancorei</string>
+</resources>

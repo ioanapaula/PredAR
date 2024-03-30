@@ -1,0 +1,75 @@
+{
+  animations: [
+    {
+      path: 'sampledata/cilinder.fbx',
+    },
+  ],
+  materials: [
+    {
+      name: 'Material_133',
+      parameters: [
+        {
+          baseColor: [
+            1,
+            1,
+            1,
+            1,
+          ],
+        },
+        {
+          baseColorMap: '2162',
+        },
+        {
+          normalMap: null,
+        },
+        {
+          interpolatedColor: null,
+        },
+        {
+          metallic: 0,
+        },
+        {
+          metallicMap: null,
+        },
+        {
+          roughness: 1,
+        },
+        {
+          roughnessMap: null,
+        },
+        {
+          opacity: null,
+        },
+      ],
+      source: 'build/sceneform_sdk/default_materials/fbx_material.sfm',
+    },
+  ],
+  model: {
+    attributes: [
+      'Position',
+      'Color',
+      'TexCoord',
+      'Orientation',
+      'BoneIndices',
+      'BoneWeights',
+    ],
+    collision: {},
+    file: 'sampledata/cilinder.fbx',
+    name: 'cilinder',
+    recenter: 'root',
+    scale: 120.629353999999999,
+  },
+  samplers: [
+    {
+      file: 'sampledata\\cilinder.fbm\\2162.png',
+      name: '2162',
+      pipeline_name: 'cilinder.fbm\\2162.png',
+    },
+    {
+      file: 'sampledata\\cilinder.fbm\\2166.png',
+      name: '2166',
+      pipeline_name: 'cilinder.fbm\\2166.png',
+    },
+  ],
+  version: '0.54:2',
+}

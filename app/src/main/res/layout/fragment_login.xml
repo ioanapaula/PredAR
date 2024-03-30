@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:background="@color/pageBackground">
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="250dp"
+        app:srcCompat="@drawable/login_ar_image"/>
+    <RelativeLayout
+        android:id="@+id/teacher_login_layout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <Button
+            android:id="@+id/teacher_login_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:visibility="visible"
+            style="@style/ButtonStyle"
+            tools:text="Sunt profesor!"/>
+        <LinearLayout
+            android:id="@+id/teacher_login_section"
+            android:orientation="horizontal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:visibility="gone">
+            <EditText
+                android:id="@+id/teacher_login_code"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:backgroundTint="@color/colorPrimary"
+                android:hint="Cod de acces..."/>
+            <ImageButton
+                android:id="@+id/teacher_login_confirmation_button"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:backgroundTint="@android:color/transparent"
+                app:srcCompat="@android:drawable/ic_menu_send"/>
+        </LinearLayout>
+    </RelativeLayout>
+    <Button
+        android:id="@+id/student_login_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        style="@style/ButtonStyle"
+        tools:text="Sunt elev!"/>
+</LinearLayout>

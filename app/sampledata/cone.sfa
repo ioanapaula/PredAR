@@ -1,0 +1,75 @@
+{
+  animations: [
+    {
+      path: 'sampledata/cone.fbx',
+    },
+  ],
+  materials: [
+    {
+      name: 'Material_165',
+      parameters: [
+        {
+          baseColor: [
+            1,
+            1,
+            1,
+            1,
+          ],
+        },
+        {
+          baseColorMap: '2571',
+        },
+        {
+          normalMap: null,
+        },
+        {
+          interpolatedColor: null,
+        },
+        {
+          metallic: 0,
+        },
+        {
+          metallicMap: null,
+        },
+        {
+          roughness: 1,
+        },
+        {
+          roughnessMap: null,
+        },
+        {
+          opacity: null,
+        },
+      ],
+      source: 'build/sceneform_sdk/default_materials/fbx_material.sfm',
+    },
+  ],
+  model: {
+    attributes: [
+      'Position',
+      'Color',
+      'TexCoord',
+      'Orientation',
+      'BoneIndices',
+      'BoneWeights',
+    ],
+    collision: {},
+    file: 'sampledata/cone.fbx',
+    name: 'cone',
+    recenter: 'root',
+    scale: 120.476425000000001,
+  },
+  samplers: [
+    {
+      file: 'sampledata\\cone.fbm\\2571.png',
+      name: '2571',
+      pipeline_name: 'cone.fbm\\2571.png',
+    },
+    {
+      file: 'sampledata\\cone.fbm\\2575.png',
+      name: '2575',
+      pipeline_name: 'cone.fbm\\2575.png',
+    },
+  ],
+  version: '0.54:2',
+}
