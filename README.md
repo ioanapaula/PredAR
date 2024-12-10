@@ -2,7 +2,7 @@ PredAR is a native Android prototype application developed as part of my masterâ
 
 For its creation, I used the following:
 - ARCore SDK for augmented reality features
-- Google Clout Anchors and Firebase services for the multiplayer component
+- Google Cloud Anchors and Firebase services for the multiplayer component
 - MVVM architecture
 - Kotlin
 - Android Studio
